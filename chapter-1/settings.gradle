@@ -1,0 +1,3 @@
+rootProject.name = 'data-structures-in-java-chapter1'
+include 'exercise-1'
+
