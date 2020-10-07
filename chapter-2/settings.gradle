@@ -2,4 +2,5 @@ rootProject.name = 'data-structures-in-java-chapter2'
 include 'exercise-23'
 include 'exercise-26'
 include 'exercise-27'
+include 'exercise-28'
 
