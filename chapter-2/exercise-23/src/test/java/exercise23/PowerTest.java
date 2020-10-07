@@ -30,6 +30,10 @@ public class PowerTest {
 
         logger.debug("Again");
 
+        assertThat(power.power(2, 3)).isEqualTo(8);
+        assertThat(power.power(2, 9)).isEqualTo(512);
+        assertThat(power.power(2, 10)).isEqualTo(1024);
+
         assertThat(power.power(6, 3)).isEqualTo(mathResult1);
         assertThat(power.power(15, 3)).isEqualTo(mathResult2);
         assertThat(power.power(2, 62)).isEqualTo(mathResult3);
