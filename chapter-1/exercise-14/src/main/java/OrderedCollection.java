@@ -1,7 +1,7 @@
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class OrderedCollection<T extends Comparable<T>> {
+public class OrderedCollection<T extends Comparable<? super T>> {
     private static final Logger logger = LoggerFactory.getLogger(OrderedCollection.class);
     private Object[] objects = new Object[100];
     private int len;
