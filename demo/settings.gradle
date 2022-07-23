@@ -1,0 +1,6 @@
+rootProject.name = 'demo'
+include 'exercise-4'
+include 'exercise-13'
+include 'exercise-14'
+include 'exercise-15'
+include 'exercise-15-Copy'

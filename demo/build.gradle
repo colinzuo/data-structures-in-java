@@ -1,0 +1,27 @@
+plugins {
+    id 'idea'
+    id 'java'
+}
+
+allprojects {
+    group = 'com.colinzuo.study'
+    version = '0.0.1-SNAPSHOT'
+
+    sourceCompatibility = 1.8
+}
+
+subprojects {
+    apply plugin: 'idea'
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    test {
+        useJUnitPlatform()
+        testLogging {
+            events "passed", "skipped", "failed"
+        }
+    }
+}
